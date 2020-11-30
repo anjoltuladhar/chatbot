@@ -405,13 +405,13 @@ div.chatbox-frame.show > div{
   div.chatbox-frame {
     position: fixed;
     top: 2%;
-    width: 97%;
+    width: 94%;
     right: unset;
     margin: 0;
     height: 80%;
   }
   .boxed{
-    height: 450px;
+    height: 400px;
   }
   p.userText span ,
   p.botText span {
@@ -437,5 +437,20 @@ div.chatbox-frame.show > div{
     left: 0;
     top: 20%;
     font-size: 30px;
+  }
+}
+
+@media (max-width: 450px){
+  .boxed{
+    height: 300px;
+  }
+  .chatbox-frame .chatbox-header h1 > span{
+    font-size: 22px;
+  }
+  p.userText span, p.botText span{
+    font-size: 14px;
+  }
+  #textInput{
+    font-size: 18px;
   }
 }
