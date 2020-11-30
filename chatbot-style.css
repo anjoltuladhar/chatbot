@@ -440,6 +440,31 @@ div.chatbox-frame.show > div{
   }
 }
 
+@media (max-width: 600px){
+  button#chatbox-btn {
+    left: unset;
+    right: 0;
+    top: 30px;
+    background: #04ffcd;
+    border: none;
+  }
+  button#chatbox-btn.show {
+    background-color: transparent;
+  }
+  .float:before{
+    content: none;
+    border:  none;
+  }
+  .my-float:before{
+    font-size: 32px;
+    color: #fff;
+    border:  none;
+  }
+  #chatbox-btn.show .my-float:before{
+    content: "\f00d";
+  } 
+}
+
 @media (max-width: 450px){
   .boxed{
     height: 300px;
