@@ -463,6 +463,9 @@ div.chatbox-frame.show > div{
   #chatbox-btn.show .my-float:before{
     content: "\f00d";
   } 
+  header.chatbox-header h1{
+    margin-left: 50px;
+  }
 }
 
 @media (max-width: 450px){
@@ -477,5 +480,8 @@ div.chatbox-frame.show > div{
   }
   #textInput{
     font-size: 18px;
+  }
+  button#chatbox-btn {
+    right: -28px;
   }
 }
